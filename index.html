@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ana Beatriz</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+      color: white;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      overflow: hidden;
+    }
+
+    .container {
+      animation: fadeIn 2s ease forwards;
+      opacity: 0;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 42px;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      opacity: 0.7;
+      margin-bottom: 35px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 35px;
+      font-size: 16px;
+      border-radius: 50px;
+      background: white;
+      color: black;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      font-weight: 500;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      background: #e6e6e6;
+    }
+
+    .note {
+      margin-top: 15px;
+      font-size: 13px;
+      opacity: 0.6;
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 12px;
+      opacity: 0.4;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 34px;
+      }
+      .btn {
+        padding: 12px 28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Ana Beatriz</h1>
+    <div class="subtitle">Para você.</div>
+
+    <a class="btn"
+      href="https://open.spotify.com/track/6Ws5oN1UkpEV66Yw2pQMpC?si=3iMuBlR3Tmuhj8sFjDORcQ&t=35"
+      target="_blank"
+    >
+      Ouvir nossa música
+    </a>
+
+    <div class="note">
+      (Comece a ouvir a partir de 0:35)
+    </div>
+  </div>
+
+  <div class="footer">
+    Desde o dia que tudo começou ❤️
+  </div>
+
+</body>
+</html>
